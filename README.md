@@ -1,6 +1,6 @@
-<a href="https://github.com/sgoudham/java/stargazers"><img src="https://img.shields.io/github/stars/sgoudham/trace?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-<a href="https://github.com/sgoudham/java/issues"><img src="https://img.shields.io/github/issues/sgoudham/trace?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-<a href="https://github.com/sgoudham/java/contributors"><img src="https://img.shields.io/github/contributors/sgoudham/trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/trace/stargazers"><img src="https://img.shields.io/github/stars/sgoudham/trace?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/trace/issues"><img src="https://img.shields.io/github/issues/sgoudham/trace?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/trace/contributors"><img src="https://img.shields.io/github/contributors/sgoudham/trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 <a href="https://search.maven.org/artifact/me.goudham/trace"><img src="https://img.shields.io/maven-central/v/me.goudham/trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 
 # trace
