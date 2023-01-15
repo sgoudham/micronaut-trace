@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.goudham</groupId>
     <artifactId>micronaut-trace</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <packaging>${packaging}</packaging>
 
     <parent>
@@ -23,11 +23,11 @@
         <packaging>jar</packaging>
     </properties>
 
-    <name>trace</name>
+    <name>micronaut-trace</name>
     <description>
-        A Java annotation library to trace and time your method executions, written using Micronaut
+        Java annotation library to trace and time your method executions, written using Micronaut
     </description>
-    <url>https://github.com/sgoudham/trace</url>
+    <url>https://github.com/sgoudham/micronaut-trace</url>
 
     <distributionManagement>
         <snapshotRepository>
@@ -41,9 +41,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git://github.com/sgoudham/trace.git</connection>
-        <developerConnection>scm:git:ssh://github.com:sgoudham/trace.git</developerConnection>
-        <url>https://github.com/sgoudham/trace/tree/main</url>
+        <connection>scm:git:git://github.com/sgoudham/micronaut-trace.git</connection>
+        <developerConnection>scm:git:ssh://github.com:sgoudham/micronaut-trace.git</developerConnection>
+        <url>https://github.com/sgoudham/micronaut-trace/tree/main</url>
     </scm>
 
     <developers>
@@ -82,13 +82,11 @@
         <dependency>
             <groupId>io.micronaut</groupId>
             <artifactId>micronaut-aop</artifactId>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>io.micronaut.test</groupId>
             <artifactId>micronaut-test-junit5</artifactId>
             <scope>test</scope>
-            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -115,11 +113,11 @@
 
     <build>
         <plugins>
-<!--            This makes the shaded-jar the default, which I don't want-->
-<!--            <plugin>-->
-<!--                <groupId>io.micronaut.build</groupId>-->
-<!--                <artifactId>micronaut-maven-plugin</artifactId>-->
-<!--            </plugin>-->
+            <!--            This makes the shaded-jar the default, which I don't want-->
+            <!--            <plugin>-->
+            <!--                <groupId>io.micronaut.build</groupId>-->
+            <!--                <artifactId>micronaut-maven-plugin</artifactId>-->
+            <!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
