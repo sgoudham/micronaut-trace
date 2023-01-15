@@ -1,8 +1,8 @@
-package me.goudham.trace.annotation;
+package me.goudham.micronaut.trace.annotation;
 
 import io.micronaut.aop.Around;
 import jakarta.inject.Qualifier;
-import me.goudham.trace.shared.TraceInterpreter;
+import me.goudham.micronaut.trace.shared.TraceInterpreter;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

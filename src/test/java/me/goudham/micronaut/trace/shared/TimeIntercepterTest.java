@@ -1,4 +1,4 @@
-package me.goudham.trace.shared;
+package me.goudham.micronaut.trace.shared;
 
 import io.micronaut.aop.MethodInvocationContext;
 import io.micronaut.core.type.Argument;
@@ -6,8 +6,8 @@ import io.micronaut.test.annotation.MockBean;
 import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
-import me.goudham.trace.domain.LogType;
-import me.goudham.trace.service.LoggingService;
+import me.goudham.micronaut.trace.service.LoggingService;
+import me.goudham.micronaut.trace.domain.LogType;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

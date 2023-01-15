@@ -1,4 +1,4 @@
-package me.goudham.trace.shared;
+package me.goudham.micronaut.trace.shared;
 
 import io.micronaut.aop.InterceptorBean;
 import io.micronaut.aop.MethodInterceptor;
@@ -6,7 +6,7 @@ import io.micronaut.aop.MethodInvocationContext;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import jakarta.inject.Singleton;
-import me.goudham.trace.annotation.Trace;
+import me.goudham.micronaut.trace.annotation.Trace;
 
 /**
  * Intercepts the annotated method and logs out when it

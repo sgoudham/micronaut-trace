@@ -1,7 +1,7 @@
-package me.goudham.trace.service;
+package me.goudham.micronaut.trace.service;
 
 import jakarta.inject.Singleton;
-import me.goudham.trace.domain.LogType;
+import me.goudham.micronaut.trace.domain.LogType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

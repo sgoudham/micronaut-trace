@@ -1,11 +1,11 @@
-package me.goudham.trace.shared;
+package me.goudham.micronaut.trace.shared;
 
 import io.micronaut.aop.MethodInvocationContext;
 import jakarta.inject.Inject;
 import jakarta.inject.Singleton;
-import me.goudham.trace.annotation.Trace;
-import me.goudham.trace.domain.LogType;
-import me.goudham.trace.service.LoggingService;
+import me.goudham.micronaut.trace.annotation.Trace;
+import me.goudham.micronaut.trace.service.LoggingService;
+import me.goudham.micronaut.trace.domain.LogType;
 
 /**
  * Intercepts the annotated method and logs out when it

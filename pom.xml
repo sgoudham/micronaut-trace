@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>me.goudham</groupId>
-    <artifactId>trace</artifactId>
+    <artifactId>micronaut-trace</artifactId>
     <version>1.0.0</version>
     <packaging>${packaging}</packaging>
 
@@ -127,8 +127,8 @@
                     <source>11</source>
                     <target>11</target>
                     <compilerArgs>
-                        <arg>-Amicronaut.processing.group=me.goudham.trace</arg>
-                        <arg>-Amicronaut.processing.module=trace</arg>
+                        <arg>-Amicronaut.processing.group=me.goudham.micronaut.trace</arg>
+                        <arg>-Amicronaut.processing.module=micronaut-trace</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

@@ -1,9 +1,9 @@
-<a href="https://github.com/sgoudham/trace/stargazers"><img src="https://img.shields.io/github/stars/sgoudham/trace?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-<a href="https://github.com/sgoudham/trace/issues"><img src="https://img.shields.io/github/issues/sgoudham/trace?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-<a href="https://github.com/sgoudham/trace/contributors"><img src="https://img.shields.io/github/contributors/sgoudham/trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
-<a href="https://search.maven.org/artifact/me.goudham/trace"><img src="https://img.shields.io/maven-central/v/me.goudham/trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/micronaut-trace/stargazers"><img src="https://img.shields.io/github/stars/sgoudham/micronaut-trace?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/micronaut-trace/issues"><img src="https://img.shields.io/github/issues/sgoudham/micronaut-trace?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+<a href="https://github.com/sgoudham/micronaut-trace/contributors"><img src="https://img.shields.io/github/contributors/sgoudham/micronaut-trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+<a href="https://search.maven.org/artifact/me.goudham/micronaut-trace"><img src="https://img.shields.io/maven-central/v/me.goudham/micronaut-trace?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 
-# trace
+# micronaut-trace
 
 > A Java annotation library to trace and time your method executions, written using [Micronaut](https://micronaut.io/).
 
@@ -14,11 +14,11 @@ Be sure to replace the **VERSION** key below with the version shown above!
 ### Maven
 
 ```xml
-<!-- https://mvnrepository.com/artifact/me.goudham/trace -->
+<!-- https://mvnrepository.com/artifact/me.goudham/micronaut-trace -->
 
 <dependency>
   <groupId>me.goudham</groupId>
-  <artifactId>trace</artifactId>
+  <artifactId>micronaut-trace</artifactId>
   <version>VERSION</version>
 </dependency>
 ```
@@ -31,15 +31,15 @@ repositories {
 }
 
 dependencies {
-    // https://mvnrepository.com/artifact/me.goudham/trace
-    implementation group: 'me.goudham', name: 'trace', version: 'VERSION'
+    // https://mvnrepository.com/artifact/me.goudham/micronaut-trace
+    implementation group: 'me.goudham', name: 'micronaut-trace', version: 'VERSION'
 }
 ```
 
 ### Binaries
 
 If you choose not to use a build tool, pre-built `.jar` files are available with every
-single [release](https://github.com/sgoudham/trace/releases).
+single [release](https://github.com/sgoudham/micronaut-trace/releases).
 
 ## Usage
 

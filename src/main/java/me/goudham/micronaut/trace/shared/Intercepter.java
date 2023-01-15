@@ -1,8 +1,8 @@
-package me.goudham.trace.shared;
+package me.goudham.micronaut.trace.shared;
 
 import io.micronaut.aop.MethodInterceptor;
 import io.micronaut.aop.MethodInvocationContext;
-import me.goudham.trace.service.LoggingService;
+import me.goudham.micronaut.trace.service.LoggingService;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
