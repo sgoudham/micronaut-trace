@@ -33,14 +33,6 @@ jobs:
       - name: Test
         run: mvn test
 
-      - name: Upload Coverage to Codecov
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          directory: ./target/site/jacoco
-          files: jacoco.xml
-          fail_ci_if_error: false
-
       - name: Retrieve Name & Version
         run: |
           echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
@@ -63,3 +55,9 @@ jobs:
         with:
           name: ${{ env.NAME }}-${{ env.VERSION }}-sources.jar
           path: ./target/${{ env.NAME }}-${{ env.VERSION }}-sources.jar
+
+      - name: Archive Shaded Jar
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.NAME }}-${{ env.VERSION }}-shaded.jar
+          path: ./target/${{ env.NAME }}-${{ env.VERSION }}-shaded.jar
