@@ -142,6 +142,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+                            <useDependencyReducedPomInJar>true</useDependencyReducedPomInJar>
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>shaded</shadedClassifierName>
                         </configuration>
